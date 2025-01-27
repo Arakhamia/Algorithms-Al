@@ -31,7 +31,7 @@ def count_multiples(a, b, c):
 
 # შემოწმება
 a = 1
-b = 2
-c = 11
+b = 11
+c = 2
 # პასუხი:
 print(f"from {a} to {b}, {c}'s multiplies (including {c}) are: {count_multiples(a, b, c)}")
