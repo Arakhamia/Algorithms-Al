@@ -1,0 +1,14 @@
+1. f(∅) = ∅ = True  
+2. f⁻¹(∅) = ∅ = True  
+3. f⁻¹(E(f)) = D(f) = True  
+4. ∀x ∈ D(f), f({x}) = {f(x)} = True  
+5. ∀A ⊂ D(f), f(A) = pr₂{F ∩ (A × Y)} = True  
+6. ∀B ⊂ E(f), f⁻¹(B) = pr₁{F ∩ (X × B)} = True  
+7. ∀B ⊂ E(f), f⁻¹(B) = f⁻¹(B ∩ f(X)) = True  
+8. ∀A, B ⊂ E(f), f⁻¹(A ∪ B) = f⁻¹(A) ∪ f⁻¹(B) = True  
+9. ∀A, B ⊂ E(f), f⁻¹(A ∩ B) = f⁻¹(A) ∩ f⁻¹(B) = True  
+10. ∀A, B ⊂ E(f), f⁻¹(A \ B) = f⁻¹(A) \ f⁻¹(B) = True  
+11. ∀A, B ⊂ E(f), A ⊂ B ⇒ f⁻¹(A) ⊂ f⁻¹(B) = True  
+12. ∀A, B ⊂ D(f), f(A ∪ B) = f(A) ∪ f(B) = True  
+13. ∀B ⊂ Y, f(f⁻¹(B)) = B ∩ f(X) = True  
+14. f სურექცია ⇔ ∀B ⊂ Y, f(f⁻¹(B)) = B = True  
